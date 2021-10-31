@@ -1,0 +1,217 @@
+.App{
+  background-color: #EAEBEF;
+  height: 1000px;
+  padding: 20px;
+}
+
+
+.warning-container{
+    margin-bottom: 1rem;
+  }
+  
+  .warning-logs{
+    width: 100%;
+    height: 7rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+  }
+  
+  #title {
+    color: #808080;
+  }
+  
+  #bottom{
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+  }
+  
+  #Date{
+    margin-top: 10px;
+  }
+  
+  .date-time-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .room-container{
+    background-color: white;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    border-radius: 10px;
+    
+  }
+  
+  .room-container :hover{
+    opacity: 0.8;
+  }
+  
+  .temperature-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  
+  .temperature-container p{
+    margin: 0 auto;
+    color: #293251; 
+  }
+  
+  .temperature-icon{
+    width: 100%;
+    height: 128px;
+  }
+  
+  .temperature-icon img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251; 
+    font-size: 3.5em;
+    cursor: pointer;
+  }
+  
+  
+  .temperature-value span{
+    color: #293251; 
+    font-size: 0.5em;
+  }
+  
+  .moisture-container{
+    border-bottom: #D6D7DA;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  
+  .moisture-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251; 
+    font-size: 4em;
+    cursor: pointer;
+  }
+  
+  .moisture-value span{
+    color: #293251; 
+    font-size: 0.3em;
+  }
+  
+  .moisture-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    font-size: 1.5em;
+  }
+  
+  .moisture-bottom{
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .humidity-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  
+  .humidity-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251; 
+    font-size: 4em;
+    cursor: pointer;
+  }
+  
+  
+  .humidity-value span{
+    color: #293251; 
+    font-size: 0.3em;
+  }
+  
+  .humidity-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    font-size: 1.2em;
+  }
+  
+  #room-image{
+    display: flex;
+    align-items: center;  
+    justify-items: center;
+  }
+
+  .video-container{
+    height: 580px;
+  }
+  
+  #video-stream{
+    height: 580px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  
+  .social-image{
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  
+  .people-container{
+    margin-top: 20px;
+  }
+  
+  #card-people{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 15px;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  #people-title{
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+  .people-in{
+    background-image: linear-gradient(to right,#EE8249, #FFCF68);
+  }
+  
+  .people-out{
+    background-image: linear-gradient(to right,#76B1DD, #aabac2);
+  }
+  
+  #people-num h1{
+    font-size: 4em;
+  }
+  
+  .existing-people h1{
+    font-weight: bold;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    font-size: 4em;
+    color: #fff;
+    text-align: center;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    background-image: linear-gradient(to right,#7beb12, #a8b6a7);
+    
+  }
+  
